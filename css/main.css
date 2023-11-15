@@ -1,0 +1,57 @@
+.main-contener{
+    height: auto;
+    position: relative;
+}
+
+p {
+    font-weight: bold;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.btns-contener{
+    text-align: center;
+}
+
+button{
+    font-size: 2rem;
+    margin-right: 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    width: 10rem;
+    color: #ffffff;
+}
+
+#start-btn:disabled{
+    background-color: #1c5f34;
+    opacity: 0.8;
+    color: #ebebeb;
+}
+#start-btn:hover{
+    background-color: #22c55e;
+    opacity: 0.8;
+}
+#start-btn:disabled:hover {
+    background-color: #1c5f34;
+    opacity: 0.8;
+}
+#start-btn{
+    background-color: #22c55e;
+}
+
+#stop-btn{
+    background-color: #ef4444
+}
+
+#stop-btn:hover {
+    background-color: #ef4444;
+    opacity: 0.8;
+}
+
+#reset-btn{
+    background-color: #022c22;
+}
+#reset-btn:hover {
+    background-color: #022c22;
+    opacity: 0.8;
+}
